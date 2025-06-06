@@ -1,0 +1,4 @@
+,Model,Best R2,RMSE Train,RMSE Test,Parameters
+0,XGBoost,0.8619441099779864,14554.308142697404,26541.512278912975,"{'subsample': 0.8, 'reg_lambda': 1, 'reg_alpha': 0, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 3, 'learning_rate': 0.05, 'gamma': 0.1, 'colsample_bytree': 0.8}"
+1,LightGBM,0.8643230511633412,14671.777132915044,29622.393835837993,"{'subsample': 1.0, 'reg_lambda': 1, 'reg_alpha': 0, 'n_estimators': 200, 'min_child_weight': 1, 'max_depth': 3, 'learning_rate': 0.1, 'colsample_bytree': 0.8}"
+2,CatBoost,0.8805687734180154,4417.861114953202,28284.283084987495,"{'subsample': 0.8, 'reg_lambda': 1, 'n_estimators': 300, 'max_depth': 7, 'learning_rate': 0.1}"
